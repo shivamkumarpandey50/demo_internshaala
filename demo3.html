@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@100&family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      h2 {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+      #card {
+        height: 32rem;
+        width: 35rem;
+        background-color: rgb(108, 105, 105);
+        align-items: center;
+        margin: 3rem;
+        position: absolute;
+        left: 18rem;
+      }
+      #card-title {
+        color: aliceblue;
+        font-size: 3rem;
+        text-align: center;
+        position: relative;
+        top: 2rem;
+      }
+      #content {
+        color: aliceblue;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: "Kanit", sans-serif;
+        margin-top: 5rem;
+      }
+      #para {
+        color: aliceblue;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: "Kanit", sans-serif;
+      }
+      #ans {
+        color: aliceblue;
+        font-size: 1.5rem;
+        margin-left: 13rem;
+        text-decoration: none;
+        font-family: "Kanit", sans-serif;
+      }
+      .circle {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 36rem;
+        right: 9rem;
+      }
+      .circle1 {
+        height: 8rem;
+        width: 8rem;
+        border-radius: 50%;
+        background-color: red;
+        margin: 2rem;
+      }
+      .circle2 {
+        height: 8rem;
+        width: 8rem;
+        border-radius: 50%;
+        background-color: rgb(1, 58, 1);
+        margin: 2rem;
+      }
+      @media (max-width: 375px) {
+        h2 {
+          font-size: 2rem;
+          text-align: center;
+        }
+        #card {
+          height: 20rem;
+          width: 17rem;
+          background-color: rgb(108, 105, 105);
+          align-items: center;
+          position: absolute;
+          left: 0rem;
+          top: 4rem;
+        }
+        #card-title {
+          color: aliceblue;
+          font-size: 1.5rem;
+          text-align: center;
+          position: relative;
+          top: 0rem;
+        }
+        #content {
+          color: aliceblue;
+          font-size: 1rem;
+          text-align: center;
+          font-family: "Kanit", sans-serif;
+          margin-top: 3rem;
+        }
+        #para {
+          color: aliceblue;
+          font-size: 1rem;
+          text-align: center;
+          font-family: "Kanit", sans-serif;
+          position: relative;
+          top: 0rem;
+          right: 0rem;
+        }
+        #ans {
+          color: aliceblue;
+          font-size: 1rem;
+          padding: 0rem;
+          margin-left: 6rem;
+          position: relative;
+          top: -1rem;
+          text-decoration: none;
+          font-family: "Kanit", sans-serif;
+        }
+        .circle {
+          display: flex;
+          flex-direction: row;
+          position: absolute;
+          top: 23rem;
+          right: -1rem;
+        }
+        .circle1 {
+          height: 7rem;
+          width: 7rem;
+          border-radius: 50%;
+          background-color: red;
+          margin: 2rem;
+          position: relative;
+          bottom: 3rem;
+          left: 2rem;
+        }
+        .circle2 {
+          height: 7rem;
+          width: 7rem;
+          border-radius: 50%;
+          background-color: rgb(5 126 5);
+          margin: 2rem;
+          position: relative;
+          bottom: 3rem;
+          left: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Medieval History</h2>
+    <div class="card" id="card">
+      <div class="card-body">
+        <h5 class="card-title" id="card-title">Question will be here</h5>
+        <p class="card-subtitle mb-2 text-muted" id="content">
+          If one knows the <br />question then right <br />swipe else left swipe
+        </p>
+        <p class="card-text" id="para"><b>Tap</b> on the card to</p>
+        <a href=" " class="card-link" id="ans">view Answer</a>
+        <div class="circle">
+          <a href="" class="circle1"></a>
+          <a href="" class="circle2"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

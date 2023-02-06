@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg1{
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+.btn1 button{
+    text-align: center;
+    margin: 2rem;
+    width: 80rem;
+    font-size: 3rem;
+    padding: 2rem;
+   
+    margin-left: 2rem;
+    margin-right: rem;
+    background-color: rgb(163 157 157);
+}
+.btn1 button a{
+    text-decoration: none;
+    color: black;
+}
+.btn2 button{
+    text-align: center;
+    width: 80rem;
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+    color: aliceblue;
+    background-color: rgb(82, 153, 82);
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color:grey;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+   
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color:none;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 2%;
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 89%;
+    margin-top: 30px;
+    margin-left: 3rem;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+@media(max-width:375px)
+{
+.bg1{
+    align-items: center;
+}
+.heading{
+    position: relative;
+    left: 24rem;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+.btn1 button{
+    text-align: center;
+    width: 70rem;
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(163 157 157);
+}
+.btn1 button a{
+    text-decoration: none;
+    color: black;
+}
+.btn2 button{
+    text-align: center;
+    width: 70rem;
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+    color: aliceblue;
+    background-color: rgb(82, 153, 82);
+}
+.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+.ques{
+    display: flex;
+    flex-direction:column;
+}
+.ques label{
+    font-size: 2rem;
+}
+.ques input{
+    background-color: rgb(163 157 157);
+    width: 69rem;
+    height: 4.5rem;
+    margin: 2rem;
+}
+}

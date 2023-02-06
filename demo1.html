@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=h2, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@100&family=Playfair+Display&family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      h2 {
+        font-size: 4rem;
+        margin-top: 4rem;
+        margin-left: 20.5rem;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 30rem;
+        width: 30rem;
+        align-items: center;
+        position: absolute;
+        left: 20rem;
+        top: 7rem;
+        font-family: "Playfair Display", serif;
+        color: black;
+      }
+      #col {
+        height: 12rem;
+        width: 12rem;
+        background-color: rgb(123, 115, 115);
+        margin-top: 3rem;
+        margin-left: 1rem;
+        font-size: 2rem;
+        text-align: center;
+      }
+      #col a {
+        text-decoration: none;
+        position: relative;
+        top: 5rem;
+        color: black;
+        font-size: 3rem;
+      }
+      @media (max-width: 375px) {
+        h2 {
+          font-size: 2rem;
+          margin-top: 4rem;
+          margin-left: 2.5rem;
+        }
+        #grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          height: 23rem;
+          width: 15rem;
+          align-items: center;
+          position: absolute;
+          left: 2rem;
+          top: 8rem;
+        }
+        #col {
+          height: 8rem;
+          width: 8rem;
+          background-color: rgb(123, 115, 115);
+          margin-top: 3rem;
+          margin-left: 1rem;
+          font-size: 2rem;
+          text-align: center;
+        }
+        #col a {
+          text-decoration: none;
+          position: relative;
+          top: 3rem;
+          color: black;
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Hello XYZ,</h2>
+    <div class="container text-center">
+      <div class="row" id="grid">
+        <div class="col-6 col-sm-3" id="col">
+          <a href="/demo2.html">Ancient</a>
+        </div>
+        <div class="col-6 col-sm-3" id="col">
+          <a href="/demo3.html">Medieval</a>
+        </div>
+        <div class="col-6 col-sm-3" id="col"><a href="/demo4.html">CA</a></div>
+        <div class="col-6 col-sm-3" id="col">
+          <a href="/demo5.html">Polity</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
